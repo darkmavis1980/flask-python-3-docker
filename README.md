@@ -11,3 +11,7 @@ docker build -t flask-python-sample:latest .
 ```
 docker run -d -p 5000:5000 flask-python-sample
 ```
+
+## See it in action
+
+Go to `http://localhost:5000` and you should see flask running :-)

@@ -1,4 +1,4 @@
-# Flask and Python 3.7 docker container
+# Flask and Python 3 docker container
 
 ## Build it
 

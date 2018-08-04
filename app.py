@@ -11,8 +11,18 @@ def hello():
 
 @app.route('/fruits')
 def fruits():
+    beers = [
+        {
+            'brand': 'Guinness',
+            'type': 'stout'
+        },
+        {
+            'brand': 'Hop House 13',
+            'type': 'lager'
+        }
+    ]
     list_of_fruits = ['banana', 'orange', 'apple']
-    list_of_drinks = ['coke', 'milk']
+    list_of_drinks = ['coke', 'milk', beers]
     return jsonify(Fruits=list_of_fruits, Drinks=list_of_drinks)
 
 if __name__ == '__main__':

@@ -24,6 +24,12 @@ Or with docker-compose
 docker-compose up -d
 ```
 
+## Access to the shell
+
+```
+docker exec -ti flask-python-sample /bin/bash
+```
+
 ### Note
 
 If you use docker-compose, you can do live changes
